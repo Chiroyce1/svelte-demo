@@ -1,0 +1,41 @@
+{
+  "short_name": "Test App",
+  "name": "Test App - SvelteKit Demo",
+  "description": "Just a test demo app",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "500x500"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#3367D6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3367D6",
+  "shortcuts": [
+    {
+      "name": "Test sequence A",
+      "short_name": "A",
+      "description": "Test A, what else?",
+      "url": "/test/A",
+      "icons": [{ "src": "/favicon.svg", "sizes": "128x128" }]
+    },
+    {
+      "name": "Test sequence B",
+      "short_name": "B",
+      "description": "Test B, what else?",
+      "url": "/test/B",
+      "icons": [{ "src": "/favicon.svg", "sizes": "128x128" }]
+    },
+    {
+      "name": "Test sequence C",
+      "short_name": "C",
+      "description": "Test C, what else?",
+      "url": "/test/C",
+      "icons": [{ "src": "/favicon.svg", "sizes": "128x128" }]
+    }
+  ]
+}
